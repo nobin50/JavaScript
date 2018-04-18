@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>Break Statement</h1>
+    <h4>Press the click me button to do a loop with a break.</h4>
+    <button type="button" onclick=myfun()>Click Me</button>
+    <script>
+    function myfun(){
+       for(i=0; i<10; i++){
+           if(i==3){
+               break;
+           }
+           document.write('number= '+i+'<br>');
+       }
+    }
+    </script>
+</body>
+</html>
